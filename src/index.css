@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+html {
+  font-size: 16px; 
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100rem;
+  background: linear-gradient(to right, #f1f2b5, #135058); 
+  overflow: hidden;
+}
+
+#root {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: .6rem;
+  padding: 1.35rem;
+  box-shadow: -5px 3px 13px -6px rgba(0, 0, 0, 0.58);
+  background: rgba(47, 78, 60, 0.735);
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+  color: #bfc3c6;
+}
+
+/* Buttons */
+.btn-\+, .btn--, .btn-x, .btn-\=, .btn-÷, .btn-C, .btn-←, .btn-\% {
+  background-color: rgba(0, 0, 0, 0.795);
+}
+
+.btn-\= {
+  grid-column: 3 / 5;
+  grid-row: 5 / 6;
+}
+
+/* Submenu */
+li span {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  transition: 0.1s all ease-in-out;
+}
+
+span:hover {
+  transform: scale(1.02);
+  color:#51b9e3;
+}
+
+/*Bubbles*/
+.bubbleShadow {
+box-shadow: -7px 9px 32px -13px rgba(0,0,0,0.89);
+}
