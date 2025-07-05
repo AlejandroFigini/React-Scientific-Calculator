@@ -680,8 +680,8 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
           `}),Xe.jsxs("div",{className:`
             absolute 
             bg-[#0b0c0c]       
-            top-[-0.3vw] 
-            left-[-5.5vw] 
+            top-[-0.vw] 
+            left-[-5.2vw] 
             [scrollbar-width:none] 
             max-h-[7vw]	
             w-[8vw] 
@@ -692,13 +692,14 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
             duration-300 
             ease-in-out 
             ${e?"translate-x-[7.2vw] opacity-100":"opacity-0 translate-x-full"}
-          `,children:[Xe.jsxs("p",{className:"p-2 sticky top-0 bg-[#0b0c0c] z-10 text-[.6vw]",children:[r.length," operation",r.length!==1?"s":""]}),r.map((c,l)=>Xe.jsx("h3",{className:`\r
+          `,children:[Xe.jsxs("p",{className:"p-2 sticky top-0 bg-[#0b0c0c] z-10 text-[.7vw]",children:[r.length," operation",r.length!==1?"s":""]}),r.map((c,l)=>Xe.jsx("h3",{className:`\r
                 text-[rgba(255,231,231,0.596)] \r
                 transition-all \r
                 duration-100 \r
                 ease-in-out \r
                 px-[0.5vw] \r
                 py-[0.3vw]\r
+                text-[.7vw]\r
                 hover:bg-[#186064] \r
                 hover:cursor-pointer \r
                 hover:scale-[1.03] \r
